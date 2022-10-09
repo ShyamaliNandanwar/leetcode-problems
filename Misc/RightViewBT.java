@@ -1,16 +1,18 @@
-class Node
-{
-    int data;
-    Node left, right;
-    public Node(int data)
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
+
+class RightViewBT{
+    class Node
     {
-        this.data = data;
-        left = right = null;
+        int data;
+        Node left, right;
+        public Node(int data)
+        {
+            this.data = data;
+            left = right = null;
+        }
     }
-}*/
-
-
-class Solution{
     //Function to return list containing elements of right view of binary tree.
     ArrayList<Integer> rightView(Node node) {
         ArrayList<Integer> res = new ArrayList<>();

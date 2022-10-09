@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         if (nums == null)
             return null;

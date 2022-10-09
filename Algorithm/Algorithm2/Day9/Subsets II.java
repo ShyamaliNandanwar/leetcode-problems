@@ -1,4 +1,8 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class Subsets2 {
     List<List<Integer>> output;
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort( nums ); //To handle duplicate first we sort the array ( adjacent elements will be similar )

@@ -1,4 +1,8 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class ThreeSum1 {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
 

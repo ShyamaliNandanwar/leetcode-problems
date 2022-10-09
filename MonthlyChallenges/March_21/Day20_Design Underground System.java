@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class UndergroundSystem {
     HashMap<Integer,String> ci = new HashMap<>();
     HashMap<String, Double[]> avg = new HashMap<>();

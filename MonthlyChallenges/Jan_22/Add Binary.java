@@ -1,4 +1,4 @@
-class Solution {
+class AddBinary {
     public String addBinary(String a, String b) {
         StringBuilder res = new StringBuilder();
         int i =a.length()-1, j=b.length()-1;

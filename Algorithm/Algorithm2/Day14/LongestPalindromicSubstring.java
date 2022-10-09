@@ -1,4 +1,4 @@
-class Solution {
+class LongestPalindromicSubstring {
     public String longestPalindrome(String str) {
 
         int n = str.length();

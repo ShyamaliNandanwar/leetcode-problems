@@ -1,4 +1,7 @@
-class Solution {
+import java.util.LinkedList;
+import java.util.Queue;
+
+class NoOfProvinces {
     public int findCircleNum(int[][] isConnected) {
         Queue<Integer> q = new LinkedList<>();
 

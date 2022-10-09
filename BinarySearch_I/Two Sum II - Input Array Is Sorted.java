@@ -1,4 +1,4 @@
-class Solution {
+class TwoSum2 {
     public int[] twoSum(int[] n, int target) {
         int res[] = new int[2];
 

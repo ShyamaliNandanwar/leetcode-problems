@@ -1,10 +1,14 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class MergeIntervals {
     public int[][] merge(int[][] intervals) {
         if(intervals.length == 0)
             return intervals;
 
         List<int[]> li = new ArrayList<>();
-        Arrays.sort(intervals, (a,b)-> a[0] -b[0]);
+        Arrays.sort(intervals, (a, b)-> a[0] -b[0]);
 
         int n[] = intervals[0];
         int i =1;

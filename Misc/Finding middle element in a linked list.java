@@ -6,8 +6,13 @@
 }
 */
 
-class Solution
+class FindingMiddleElement
 {
+    class Node {
+        int data;
+        Node next;
+        Node(int d)  { data = d;  next = null; }
+    }
     int getMiddle(Node head)
     {
         // Your code here.

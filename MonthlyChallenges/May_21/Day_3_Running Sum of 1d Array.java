@@ -1,4 +1,4 @@
-class Solution {
+class RunningSum {
     public int[] runningSum(int[] nums) {
         if(nums.length == 1)
             return nums;

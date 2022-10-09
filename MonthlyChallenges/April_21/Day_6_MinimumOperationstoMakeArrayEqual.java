@@ -1,4 +1,4 @@
-class Solution {
+class Day_6_MinimumOperationstoMakeArrayEqual {
     public int minOperations(int n) {
         int count=0;
 

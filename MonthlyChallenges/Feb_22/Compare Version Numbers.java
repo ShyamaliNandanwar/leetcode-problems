@@ -1,4 +1,4 @@
-class Solution {
+class CompareVersionNumbers {
     public int compareVersion(String version1, String version2) {
         String[] levels1 = version1.split("\\.");
         String[] levels2 = version2.split("\\.");

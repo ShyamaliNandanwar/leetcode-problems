@@ -1,4 +1,4 @@
-class Solution {
+class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         int c[] = new int[26];
         for(char i: magazine.toCharArray()){

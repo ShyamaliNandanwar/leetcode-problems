@@ -1,4 +1,4 @@
-class Solution {
+class NthTribNumber1 {
     public int tribonacci(int n) {
         if(n == 0 )
             return n;

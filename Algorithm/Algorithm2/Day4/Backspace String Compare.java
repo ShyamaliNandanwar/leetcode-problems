@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Stack;
+
+class BackspaceStringCompare {
     public boolean backspaceCompare(String s, String t) {
         Stack<Character> st = new Stack<>();
         for(char c : s.toCharArray()){

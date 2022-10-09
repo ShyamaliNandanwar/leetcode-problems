@@ -1,4 +1,4 @@
-class Solution {
+class String2Integer {
     public int myAtoi(String str) {
        str = str.trim();
         if(str.length()==0)

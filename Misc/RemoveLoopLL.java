@@ -6,8 +6,13 @@ class Node
 }
 */
 
-class Solution
+class RemoveLoopLL
 {
+    class Node
+    {
+        int data;
+        Node next;
+    }
     //Function to remove a loop in the linked list.
     public static void removeLoop(Node head){
         Node prev=head;

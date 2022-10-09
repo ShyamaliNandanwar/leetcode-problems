@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Stack;
+
+class BaseballGame {
     public int calPoints(String[] ops) {
         Stack<Integer> st = new Stack<>();
 

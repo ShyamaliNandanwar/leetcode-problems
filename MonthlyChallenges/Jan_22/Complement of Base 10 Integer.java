@@ -1,4 +1,4 @@
-class Solution {
+class ComplementOfBase10 {
     public int bitwiseComplement(int N) {
         if(N == 0) return 1;
         int ans = 0;

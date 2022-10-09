@@ -1,4 +1,6 @@
-class Solution {
+import java.util.HashMap;
+
+class WordPattern {
     public boolean wordPattern(String pattern, String s) {
         HashMap<Character, String> hm = new HashMap<>();
         String sa[] = s.split(" ");

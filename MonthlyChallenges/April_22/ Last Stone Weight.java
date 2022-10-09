@@ -1,4 +1,7 @@
-class Solution {
+import java.util.Collections;
+import java.util.PriorityQueue;
+
+class LastStoneWeight {
     public int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 

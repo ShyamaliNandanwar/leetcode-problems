@@ -1,4 +1,7 @@
-class Solution {
+import java.util.LinkedList;
+import java.util.Queue;
+
+class NearestExitFromEntrance {
     public int nearestExit(char[][] maze, int[] entrance) {
         int minPath=Integer.MAX_VALUE;
         Queue<int[]> q = new LinkedList<>();

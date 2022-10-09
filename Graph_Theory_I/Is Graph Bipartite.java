@@ -1,4 +1,8 @@
-class Solution {
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+
+class IsGraphBipartite {
     public boolean isBipartite(int[][] graph) {
         int color[] = new int[graph.length];
         Arrays.fill(color, -1);

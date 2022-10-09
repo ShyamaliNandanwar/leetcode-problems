@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class MinNoOfVerticesToReachAllNodes {
     public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {
         List<Integer> res = new ArrayList<>();
 

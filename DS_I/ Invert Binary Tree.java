@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class InvertBT {
     public TreeNode invertTree(TreeNode root) {
         helper(root);
         return root;

@@ -1,4 +1,4 @@
-class Solution {
+class LongestPalindromeSub {
     public int longestPalindromeSubseq(String s) {
         String r = new StringBuilder(s).reverse().toString();
         int dp[][] = new int[s.length()+1][s.length()+1];

@@ -1,4 +1,6 @@
-class Solution {
+import java.util.HashSet;
+
+class FindTownJudge {
     public int findJudge(int n, int[][] trust) {
         if(trust== null || trust.length == 0 || trust[0].length == 0)
             return -1;

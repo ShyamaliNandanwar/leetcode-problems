@@ -1,4 +1,4 @@
-class Solution {
+class LCS {
     public int longestCommonSubsequence(String s, String a) {
         int dp[][]=new int[s.length()+1][a.length()+1];
 

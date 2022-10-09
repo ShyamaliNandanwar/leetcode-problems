@@ -10,6 +10,12 @@ class Node
 
 class GfG
 {
+    class Node
+    {
+        int data;
+        Node next;
+        Node(int d) {data = d; next = null; }
+    }
     //Function to find the data of nth node from the end of a linked list.
     int getNthFromLast(Node head, int n)
     {

@@ -1,16 +1,20 @@
-class Node
-{
-    int data;
-    Node left, right;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
 
-    Node(int item)
-    {
-        data = item;
-        left = right = null;
-    }
-}*/
 class Tree
 {
+    class Node
+    {
+        int data;
+        Node left, right;
+
+        Node(int item)
+        {
+            data = item;
+            left = right = null;
+        }
+    }
     //Function to return list containing elements of left view of binary tree.
     ArrayList<Integer> leftView(Node root)
     {

@@ -1,4 +1,4 @@
-class Solution {
+class RobotBoundedByCircle {
     public boolean isRobotBounded(String instructions) {
         int x=0, y=0, dir=1; // dir = 1 -> 'N'
         for(char c: instructions.toCharArray()){

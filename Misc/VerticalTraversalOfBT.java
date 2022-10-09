@@ -1,19 +1,21 @@
 // { Driver Code Starts
 //Initial Template for Java
 
-class Solution
+import java.util.*;
+
+class VerticalTraversalOfBT
 {
     static class Qobj {
         int hd;
-        Node node;
-        Qobj(int hd, Node node)
+        Tree.Node node;
+        Qobj(int hd, Tree.Node node)
         {
             this.hd = hd;
             this.node = node;
         }
     }
     //Function to find the vertical order traversal of Binary Tree.
-    static ArrayList <Integer> verticalOrder(Node root)
+    static ArrayList <Integer> verticalOrder(Tree.Node root)
     {
         // add your code here
         if (root == null)
@@ -31,7 +33,7 @@ class Solution
             // pop from queue front
             Qobj temp = que.poll();
             hd = temp.hd;
-            Node node = temp.node;
+            Tree.Node node = temp.node;
 
             // insert this node's data in array of hash
             if (m.containsKey(hd)) {

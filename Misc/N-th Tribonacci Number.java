@@ -1,4 +1,6 @@
-class Solution {
+import java.util.HashMap;
+
+class NthTribNumber {
     HashMap<Integer, Integer> hm = new HashMap<>();
     public int tribonacci(int n) {
         if(n==0)

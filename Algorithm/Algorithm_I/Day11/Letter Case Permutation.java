@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class LetterCasePer {
     public List<String> letterCasePermutation(String S) {
         List<String> ans = new ArrayList<>();
         if(S.length() == 0){

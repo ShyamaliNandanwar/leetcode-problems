@@ -1,4 +1,4 @@
-class Solution {
+class CarPooling {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] timestamp = new int[1001];
         for(int[] t : trips) {

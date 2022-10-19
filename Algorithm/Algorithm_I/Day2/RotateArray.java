@@ -1,4 +1,4 @@
-class Solution {
+class RotateArray1{
     public void reverse(int [] nums, int i, int j){
         while(i < j){
             int temp = nums[i];

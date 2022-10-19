@@ -1,4 +1,4 @@
-class Solution {
+class StoneGame4 {
     public boolean winnerSquareGame(int n) {
         boolean dp[] = new boolean[n + 1];
         for(int i = 1; i <= n; i++) {

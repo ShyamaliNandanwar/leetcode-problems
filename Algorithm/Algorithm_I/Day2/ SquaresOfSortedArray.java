@@ -1,4 +1,4 @@
-class Solution {
+class SquaresOfSortedArray {
     public int[] sortedSquares(int[] nums) {
         int res[] = new int[nums.length];
         int left=0,right=nums.length-1;

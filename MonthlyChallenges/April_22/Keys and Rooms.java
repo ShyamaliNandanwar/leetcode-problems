@@ -1,4 +1,8 @@
-class Solution {
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+class KeysAndBall {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         Queue<Integer> q = new LinkedList<>();
 

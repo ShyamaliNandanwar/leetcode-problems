@@ -1,25 +1,27 @@
-/*
+
 // Definition for a Node.
-class Node {
-    public int val;
-    public List<Node> children;
-
-    public Node() {}
-
-    public Node(int _val) {
-        val = _val;
-    }
-
-    public Node(int _val, List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-*/
 
 
-class Solution {
+
+import java.util.*;
+
+public class NaryTreePreorderTraversal {
     List<Integer> res = null ;
+    class Node {
+        public int val;
+        public List<Node> children;
+
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val, List<Node> _children) {
+            val = _val;
+            children = _children;
+        }
+    }
     public List<Integer> preorder(Node root) {
         res = new ArrayList<>();
         if(root == null)

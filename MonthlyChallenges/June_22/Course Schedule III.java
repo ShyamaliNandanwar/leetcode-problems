@@ -1,4 +1,7 @@
-class Solution {
+import java.util.Arrays;
+import java.util.PriorityQueue;
+
+class CourseSchedule {
     public int scheduleCourse(int[][] courses) {
         Arrays.sort (courses, (course1, course2) -> course1[1] - course2[1]);
 

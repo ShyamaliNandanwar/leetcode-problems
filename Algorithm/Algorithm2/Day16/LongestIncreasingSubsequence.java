@@ -1,4 +1,6 @@
-class Solution {
+import java.util.TreeSet;
+
+class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         TreeSet<Integer> bst = new TreeSet<>();
         for (int num : nums) {

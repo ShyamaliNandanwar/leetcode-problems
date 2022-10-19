@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Arrays;
+
+class MaxNoOfKsumPairs{
     public int maxOperations(int[] nums, int k) {
         Arrays.sort(nums);
         int l=0, r= nums.length-1;

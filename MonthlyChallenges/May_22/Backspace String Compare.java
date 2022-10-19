@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Stack;
+
+class BackSpaceStringCompare {
     public boolean backspaceCompare(String s, String t) {
         String s1 = calculate(s);
         String t1 = calculate(t);

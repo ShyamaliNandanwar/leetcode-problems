@@ -1,4 +1,7 @@
-class Solution {
+import java.util.LinkedList;
+import java.util.Queue;
+
+class JumpGame3 {
     public boolean canReach(int[] arr, int start) {
         boolean visited[] = new boolean[arr.length];
 

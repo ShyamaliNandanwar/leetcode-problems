@@ -1,4 +1,4 @@
-public class Solution {
+class NumberOfOneBits {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int count = 0;

@@ -1,3 +1,6 @@
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 class Pair{
     int x, y;
     int dist;
@@ -7,7 +10,7 @@ class Pair{
         this.dist = (x*x) + (y*y);
     }
 }
-class Solution {
+class KClosestPoints {
 
     public int[][] kClosest(int[][] points, int k) {
         int res[][] = new int[k][2];

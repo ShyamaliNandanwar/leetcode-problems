@@ -1,4 +1,4 @@
-class Solution {
+class CountSubIslands {
     boolean isSubLand=false;
     public int countSubIslands(int[][] grid1, int[][] grid2) {
         int r=grid2.length;

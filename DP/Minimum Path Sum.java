@@ -1,4 +1,4 @@
-class Solution {
+class MinPathSum {
     public int minPathSum(int[][] grid) {
         if(grid == null || grid.length == 0)
             return 0;

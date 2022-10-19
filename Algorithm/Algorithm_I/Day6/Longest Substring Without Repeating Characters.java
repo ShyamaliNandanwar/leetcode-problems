@@ -1,4 +1,7 @@
-class Solution {
+import java.util.LinkedList;
+import java.util.Queue;
+
+class LongestSubstringChars {
     public int lengthOfLongestSubstring(String s) {
         Queue<Character> queue = new LinkedList<>();
         int res = 0;

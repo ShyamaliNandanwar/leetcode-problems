@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.PriorityQueue;
+
+class TopKFreqElements {
     public int[] topKFrequent(int[] nums, int k) {
         if( k == nums.length)
             return nums;
@@ -9,7 +12,7 @@ class Solution {
         for(int n: nums)
             hm.put(n, hm.getOrDefault(n, 0)+1);
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> hm.get(b) - hm.get(a));
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> hm.get(b) - hm.get(a));
 
         for(int i: hm.keySet())
             pq.offer(i);

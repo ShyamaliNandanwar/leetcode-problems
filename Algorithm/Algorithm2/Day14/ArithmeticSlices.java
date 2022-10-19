@@ -1,4 +1,4 @@
-class Solution {
+class ArithmeticSlices {
     public int numberOfArithmeticSlices(int[] a) {
         int res=0;
         int diff=0, idx=0;

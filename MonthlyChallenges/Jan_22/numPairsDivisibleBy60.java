@@ -1,4 +1,4 @@
-class Solution {
+class PairsDivBy60 {
     public int numPairsDivisibleBy60(int[] time) {
         int[] arr = new int[60];
         int count = 0;

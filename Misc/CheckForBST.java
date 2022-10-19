@@ -1,6 +1,18 @@
-public class Solution
+public class CheckForBST
 {
-    //Function to check whether a Binary Tree is BST or not.
+    class Node
+    {
+        int data;
+        Node left;
+        Node right;
+
+        Node(int item)
+        {
+            data = item;
+            left = right = null;
+        }
+    }
+    //Function to check whether a ßBinary Tree is BST or not.
     boolean isBST(Node root)
     {
         // code here.

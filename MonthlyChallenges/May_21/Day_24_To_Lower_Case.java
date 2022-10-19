@@ -1,5 +1,4 @@
-public class Day_24_To
-Lower Case
+public class Day_24_To_Lower_Case
 {
 
     public String toLowerCase(String s) {

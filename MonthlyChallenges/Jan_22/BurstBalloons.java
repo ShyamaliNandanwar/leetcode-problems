@@ -1,4 +1,4 @@
-class Solution {
+class BurstBalloons {
     public int maxCoins(int[] arr) {
         return burstBalloons(arr, 0, arr.length - 1, new Integer[arr.length][arr.length]);
     }

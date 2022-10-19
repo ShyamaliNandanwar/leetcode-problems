@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day16" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm2/Day9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithm/Algorithm_I/Day8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearch_I" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DS_I" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DS_II" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Graph_Theory_I" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Misc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/April_21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/April_22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/Feb_22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/Jan_22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/June_22" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/March_21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/March_22" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/May_21" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Algorithm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/May_22" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonthlyChallenges/Oct_22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StriversSDESheet/Day2" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

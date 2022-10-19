@@ -1,4 +1,4 @@
-class Solution {
+class HouseRobber {
     public int rob(int[] nums) {
         int m = nums.length;
         int[] dp = new int[m+1];

@@ -1,4 +1,6 @@
-class Solution {
+import java.util.TreeSet;
+
+class FirstMissingPositive {
     public int firstMissingPositive(int[] nums) {
         TreeSet<Integer> ts = new TreeSet<>();
 

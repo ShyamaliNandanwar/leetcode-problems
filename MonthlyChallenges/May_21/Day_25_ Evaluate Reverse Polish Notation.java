@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Stack;
+
+class EvaluatePolishNot {
     public int evalRPN(String[] tokens) {
         int res=0,n=0;
         Stack<Integer> st = new Stack<>();

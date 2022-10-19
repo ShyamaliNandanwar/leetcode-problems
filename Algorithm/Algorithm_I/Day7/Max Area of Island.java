@@ -1,4 +1,4 @@
-class Solution {
+class MaxAreaIsland {
     public int maxAreaOfIsland(int[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;

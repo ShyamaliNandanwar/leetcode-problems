@@ -1,4 +1,4 @@
-class Solution {
+class MoveZeroes {
     public void moveZeroes(int[] nums) {
         for(int i=0, j=0; i<nums.length; i++) {
             if(nums[i] != 0) {

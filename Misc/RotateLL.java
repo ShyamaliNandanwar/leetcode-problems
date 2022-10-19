@@ -1,16 +1,18 @@
 
-class Node{
-    int data;
-    Node next;
-    Node(int d){
-        data=d;
-        next=null;
+
+
+
+
+public class RotateLL {
+    class Node{
+        int data;
+        Node next;
+        Node(int d){
+            data=d;
+            next=null;
+        }
     }
-}
 
-*/
-
-class Solution{
     //Function to rotate a linked list.
     public Node rotate(Node head, int k) {
         // add code here

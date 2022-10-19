@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+class PathsFromSourceToTarget {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         List<List<Integer>> result = new ArrayList();
         Queue<List<Integer>> q = new LinkedList();
